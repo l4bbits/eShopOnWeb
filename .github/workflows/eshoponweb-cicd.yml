@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 #test
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-l4bbits
-  LOCATION: westus
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: b33c01d2-e160-4e99-9cca-da81d7b585f9
   WEBAPP-NAME: az400-webapp-l4bbits
