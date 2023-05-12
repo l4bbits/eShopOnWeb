@@ -4,7 +4,6 @@ name: eShopOnWeb Build and Test
 on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
-#test
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-l4bbits
   LOCATION: eastus
